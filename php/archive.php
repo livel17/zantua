@@ -14,7 +14,7 @@
     
         $role = $conn->query("UPDATE admin SET role='Manager' WHERE user_Id='$userid'");
     
-        header("Location: ../admin/archive_user.php?success=User Restored");
+        header("Location: ../admin/archive_user.php?success=User Restoredd");
         exit;
     }
 ?>
